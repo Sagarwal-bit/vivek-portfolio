@@ -1,0 +1,19 @@
+.hero-background {
+  background: linear-gradient(to right, #2b2bd3 50%, #d7ff57 50%);
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  max-width: 600px;
+  z-index: 2;
+}
+
+.hero-photo {
+  border: 5px solid white;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
