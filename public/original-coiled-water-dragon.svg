@@ -1,0 +1,105 @@
+<svg width="1300" height="1700" viewBox="0 0 1300 1700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Original coiled water dragon illustration">
+  <defs>
+    <linearGradient id="bodyA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#123fa8"/>
+      <stop offset="35%" stop-color="#1d57d8"/>
+      <stop offset="75%" stop-color="#3876ff"/>
+      <stop offset="100%" stop-color="#66a2ff"/>
+    </linearGradient>
+    <linearGradient id="bellyA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff8ed"/>
+      <stop offset="100%" stop-color="#f2d6b0"/>
+    </linearGradient>
+    <linearGradient id="spineA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffc6ea"/>
+      <stop offset="100%" stop-color="#ab51d3"/>
+    </linearGradient>
+    <radialGradient id="pearlA" cx="40%" cy="38%" r="65%">
+      <stop offset="0%" stop-color="#ffe8a6"/>
+      <stop offset="40%" stop-color="#ff9630"/>
+      <stop offset="75%" stop-color="#d12626"/>
+      <stop offset="100%" stop-color="#7d1212"/>
+    </radialGradient>
+    <filter id="shadowA" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#0f1f56" flood-opacity="0.26"/>
+    </filter>
+    <pattern id="scalesA" width="24" height="22" patternUnits="userSpaceOnUse">
+      <path d="M1,21 C6,7 18,7 23,21" fill="none" stroke="#9ec3ff" stroke-width="1.3"/>
+      <path d="M4,21 C9,10 15,10 20,21" fill="none" stroke="#1a3ea7" stroke-width="1" opacity="0.8"/>
+    </pattern>
+
+    <path id="coilOuter" d="M840,240
+      C1080,360 1090,620 832,720
+      C600,812 456,662 560,512
+      C694,324 930,468 894,696
+      C864,894 658,1048 494,1148
+      C338,1242 302,1354 394,1420
+      C532,1518 820,1464 980,1314"/>
+    <path id="coilBelly" d="M814,270
+      C972,360 970,576 806,650
+      C650,722 560,626 620,536
+      C698,430 820,520 802,672
+      C774,846 630,986 484,1086
+      C372,1166 366,1264 442,1318
+      C572,1406 746,1366 900,1250"/>
+  </defs>
+
+  <g filter="url(#shadowA)">
+    <use href="#coilOuter" fill="none" stroke="url(#bodyA)" stroke-width="152" stroke-linecap="round"/>
+    <use href="#coilOuter" fill="none" stroke="url(#scalesA)" stroke-width="130" stroke-linecap="round"/>
+    <use href="#coilBelly" fill="none" stroke="url(#bellyA)" stroke-width="66" stroke-linecap="round" opacity="0.96"/>
+
+    <g stroke="#b258d8" stroke-width="3" fill="url(#spineA)">
+      <path d="M842,212 l14,-44 l19,44 z"/>
+      <path d="M892,236 l14,-45 l19,45 z"/>
+      <path d="M940,266 l14,-42 l19,42 z"/>
+      <path d="M978,300 l14,-39 l19,39 z"/>
+      <path d="M1002,338 l14,-36 l19,36 z"/>
+      <path d="M1010,378 l14,-35 l19,35 z"/>
+      <path d="M1005,422 l14,-34 l19,34 z"/>
+      <path d="M988,468 l14,-33 l19,33 z"/>
+      <path d="M958,516 l14,-32 l19,32 z"/>
+      <path d="M916,560 l14,-31 l19,31 z"/>
+      <path d="M862,598 l14,-30 l19,30 z"/>
+      <path d="M804,630 l14,-29 l19,29 z"/>
+    </g>
+
+    <g>
+      <ellipse cx="822" cy="246" rx="124" ry="96" fill="url(#bodyA)" stroke="#16357f" stroke-width="7"/>
+      <ellipse cx="786" cy="273" rx="74" ry="44" fill="#fff5e9" stroke="#b9a17e" stroke-width="4"/>
+
+      <path d="M738,258 C692,258 672,304 706,332 C736,354 780,322 782,284" fill="#ecd8bf" stroke="#184092" stroke-width="5"/>
+      <path d="M905,254 C960,266 980,320 942,350 C908,372 860,342 852,300" fill="#68a1ff" stroke="#184092" stroke-width="5"/>
+
+      <ellipse cx="758" cy="252" rx="27" ry="24" fill="#0f1728"/>
+      <circle cx="750" cy="244" r="6" fill="#f8fafc"/>
+      <ellipse cx="901" cy="266" rx="20" ry="17" fill="#0f1728"/>
+      <circle cx="896" cy="259" r="5" fill="#f8fafc"/>
+
+      <path d="M738,304 C776,334 836,344 892,326" fill="none" stroke="#101d35" stroke-width="6" stroke-linecap="round"/>
+      <path d="M774,308 C770,360 838,390 888,352" fill="none" stroke="#163a8b" stroke-width="5"/>
+
+      <path d="M710,206 C678,164 658,130 628,105" fill="none" stroke="#101d35" stroke-width="5" stroke-linecap="round"/>
+      <path d="M936,218 C972,172 1006,136 1036,118" fill="none" stroke="#101d35" stroke-width="5" stroke-linecap="round"/>
+
+      <path d="M812,372 C802,414 776,442 736,456" fill="none" stroke="#1c4bab" stroke-width="18" stroke-linecap="round"/>
+      <path d="M730,449 l-34,20 l18,18 l36,-9 z" fill="#5e95ff" stroke="#194493" stroke-width="4"/>
+      <path d="M830,380 C846,424 878,452 918,464" fill="none" stroke="#1c4bab" stroke-width="18" stroke-linecap="round"/>
+      <path d="M926,458 l31,21 l-20,16 l-33,-10 z" fill="#5e95ff" stroke="#194493" stroke-width="4"/>
+
+      <circle cx="816" cy="362" r="33" fill="url(#pearlA)" stroke="#781515" stroke-width="4"/>
+    </g>
+
+    <g fill="#3f79f4" stroke="#1d3f90" stroke-width="4">
+      <path d="M756,816 C708,848 688,890 702,930 C736,914 762,874 768,838 z"/>
+      <path d="M750,926 l-25,19 l18,15 l28,-9 z"/>
+      <path d="M870,956 C930,984 980,984 1024,944 C988,906 924,912 882,940 z"/>
+      <path d="M1028,942 l31,15 l-15,17 l-34,-8 z"/>
+      <path d="M548,1232 C510,1260 486,1296 490,1334 C524,1322 552,1292 564,1260 z"/>
+      <path d="M562,1328 l-22,18 l18,13 l26,-11 z"/>
+    </g>
+
+    <path d="M980,1314 C1090,1300 1164,1348 1216,1452" fill="none" stroke="#1c4bb2" stroke-width="33" stroke-linecap="round"/>
+    <path d="M982,1314 C1082,1302 1140,1342 1186,1428" fill="none" stroke="url(#bellyA)" stroke-width="14" stroke-linecap="round" opacity="0.88"/>
+  </g>
+</svg>

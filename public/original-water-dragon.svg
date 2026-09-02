@@ -1,0 +1,114 @@
+<svg width="1200" height="1600" viewBox="0 0 1200 1600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Original blue water dragon illustration">
+  <defs>
+    <linearGradient id="bodyFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="38%" stop-color="#2563eb"/>
+      <stop offset="70%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+
+    <linearGradient id="bellyFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+
+    <radialGradient id="orb" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="35%" stop-color="#f97316"/>
+      <stop offset="75%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </radialGradient>
+
+    <linearGradient id="spine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbcfe8"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#1e3a8a" flood-opacity="0.2"/>
+    </filter>
+
+    <pattern id="scales" width="26" height="24" patternUnits="userSpaceOnUse">
+      <path d="M2,22 C7,6 19,6 24,22" fill="none" stroke="#93c5fd" stroke-width="1.4"/>
+      <path d="M5,22 C10,10 16,10 21,22" fill="none" stroke="#1e40af" stroke-width="1" opacity="0.75"/>
+    </pattern>
+
+    <path id="dragonCurve" d="M770,220
+      C1030,330 1040,580 760,690
+      C480,800 360,620 520,480
+      C700,320 880,500 820,680
+      C760,850 540,980 400,1080
+      C280,1160 230,1280 360,1360
+      C500,1440 770,1380 900,1260"/>
+
+    <path id="bellyCurve" d="M740,250
+      C920,340 910,560 730,640
+      C560,720 500,610 580,520
+      C670,410 760,520 730,650
+      C700,790 550,930 430,1030
+      C340,1110 330,1220 430,1280
+      C540,1340 700,1300 820,1205"/>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <use href="#dragonCurve" fill="none" stroke="url(#bodyFill)" stroke-width="150" stroke-linecap="round"/>
+    <use href="#dragonCurve" fill="none" stroke="url(#scales)" stroke-width="130" stroke-linecap="round" opacity="0.9"/>
+    <use href="#bellyCurve" fill="none" stroke="url(#bellyFill)" stroke-width="70" stroke-linecap="round" opacity="0.95"/>
+
+    <g stroke="#a855f7" stroke-width="3" fill="url(#spine)">
+      <path d="M780,200 l14,-48 l20,48 z"/>
+      <path d="M840,220 l14,-50 l20,50 z"/>
+      <path d="M895,250 l14,-48 l20,48 z"/>
+      <path d="M935,290 l14,-44 l20,44 z"/>
+      <path d="M952,330 l14,-38 l20,38 z"/>
+      <path d="M955,370 l14,-36 l20,36 z"/>
+      <path d="M947,410 l14,-34 l20,34 z"/>
+      <path d="M925,452 l14,-34 l20,34 z"/>
+      <path d="M890,495 l14,-34 l20,34 z"/>
+      <path d="M845,535 l14,-34 l20,34 z"/>
+      <path d="M790,570 l14,-34 l20,34 z"/>
+      <path d="M730,600 l14,-30 l20,30 z"/>
+    </g>
+
+    <g>
+      <ellipse cx="760" cy="225" rx="120" ry="92" fill="url(#bodyFill)" stroke="#1e3a8a" stroke-width="7"/>
+      <ellipse cx="724" cy="252" rx="70" ry="42" fill="#f1f5f9" stroke="#94a3b8" stroke-width="4"/>
+
+      <path d="M676,237 C634,238 616,280 650,304 C679,323 718,295 720,262" fill="#dbeafe" stroke="#1e3a8a" stroke-width="5"/>
+      <path d="M842,233 C896,243 915,292 882,320 C851,344 807,317 798,280" fill="#60a5fa" stroke="#1e3a8a" stroke-width="5"/>
+
+      <ellipse cx="694" cy="232" rx="27" ry="25" fill="#111827"/>
+      <circle cx="687" cy="223" r="6" fill="#f8fafc"/>
+
+      <ellipse cx="842" cy="245" rx="20" ry="17" fill="#111827"/>
+      <circle cx="837" cy="239" r="5" fill="#f8fafc"/>
+
+      <path d="M672,282 C705,310 758,318 815,302" fill="none" stroke="#0f172a" stroke-width="6" stroke-linecap="round"/>
+      <path d="M708,286 C704,340 765,365 812,330" fill="none" stroke="#1e3a8a" stroke-width="5"/>
+
+      <path d="M648,186 C620,145 602,115 575,92" fill="none" stroke="#0f172a" stroke-width="5" stroke-linecap="round"/>
+      <path d="M876,198 C910,156 943,124 971,109" fill="none" stroke="#0f172a" stroke-width="5" stroke-linecap="round"/>
+
+      <path d="M744,345 C734,387 712,410 676,422" fill="none" stroke="#1e40af" stroke-width="18" stroke-linecap="round"/>
+      <path d="M670,416 l-32,19 l18,17 l33,-8 z" fill="#60a5fa" stroke="#1e3a8a" stroke-width="4"/>
+      <path d="M760,355 C774,398 802,424 838,436" fill="none" stroke="#1e40af" stroke-width="18" stroke-linecap="round"/>
+      <path d="M845,429 l29,20 l-19,16 l-31,-9 z" fill="#60a5fa" stroke="#1e3a8a" stroke-width="4"/>
+
+      <circle cx="748" cy="336" r="33" fill="url(#orb)" stroke="#7f1d1d" stroke-width="4"/>
+      <path d="M735,327 C742,333 742,344 736,352" fill="none" stroke="#fef3c7" stroke-width="3"/>
+      <path d="M761,321 C767,329 768,343 760,349" fill="none" stroke="#fef3c7" stroke-width="3"/>
+    </g>
+
+    <g fill="#3b82f6" stroke="#1e3a8a" stroke-width="4">
+      <path d="M690,760 C640,790 621,830 636,870 C668,855 694,815 700,780 z"/>
+      <path d="M685,866 l-26,18 l17,15 l28,-9 z"/>
+      <path d="M799,905 C855,930 900,930 940,892 C907,855 849,860 810,886 z"/>
+      <path d="M944,890 l30,14 l-14,17 l-34,-8 z"/>
+      <path d="M455,1205 C415,1233 390,1268 395,1305 C430,1294 458,1264 470,1230 z"/>
+      <path d="M468,1300 l-22,18 l18,13 l26,-11 z"/>
+    </g>
+
+    <path d="M900,1260 C1002,1246 1070,1288 1115,1376" fill="none" stroke="#1d4ed8" stroke-width="34" stroke-linecap="round"/>
+    <path d="M902,1260 C998,1246 1054,1280 1094,1350" fill="none" stroke="url(#bellyFill)" stroke-width="14" stroke-linecap="round" opacity="0.85"/>
+  </g>
+</svg>
